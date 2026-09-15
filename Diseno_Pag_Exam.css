@@ -1,0 +1,79 @@
+body{
+    margin: 40px;
+}
+
+.contenedor-titulo{
+    display: flex;
+    align-items: center;   
+    gap: 1rem;            
+}
+.LOGO_JOSEPH {
+    width: 100px;             
+    height: auto;
+    object-fit: cover;        
+}
+
+.Autor{
+    margin-left: 10px;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.Imagen_Juan{
+    width: 80px;
+    height: 80px;        
+    object-fit: cover;
+    object-position: top;
+    border-radius: 50%;    
+}
+
+.info-autor {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+}
+
+.info-autor h2 {
+    margin: 0;
+}
+
+.fecha {
+    font-size: 14px;
+    font-weight: normal;
+}
+.LENOVO_1{
+    display: block;
+    margin: 2rem auto;
+    max-width: 700px;
+    width: 80%;
+    height: auto;
+}
+p{
+    text-align: justify;
+    font-size: 25px;
+}
+.Tarjeta {
+    background-color: white;
+    border-radius: 30px;
+    padding: 3rem;
+    padding-top: 0.5rem;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 3rem auto;
+    margin-top: 6rem; 
+}
+.Comillas {
+    font-style: italic;
+    margin: 2rem;
+}
+body {
+    background-image: url('nebulosa-en-el-espacio-12k_12000x5023_xtrafondos.com.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+h1 {
+    color: white;
+}
